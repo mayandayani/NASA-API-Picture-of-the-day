@@ -11,7 +11,6 @@ function getFetch() {
         .then(data => {
             console.log(data);
 
-            // Get references to elements
             const imgElement = document.querySelector('img');
             let iframeElement = document.querySelector('iframe');
 
